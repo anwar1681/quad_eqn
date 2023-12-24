@@ -3,5 +3,5 @@
 soln of quad equation
 
 with graph plotting of the roots
-`<br>`
+<br>
 Author: M Anwar
