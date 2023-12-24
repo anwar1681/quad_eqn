@@ -7,9 +7,9 @@ import os
 a = int(input('value of a: '))
 b = int(input('value of b: '))
 c = int(input('value of c: '))
-d = (b**2 -4*a*c)*0.5
-x1 = (-b + d)/(2*a)
-x2 = (-b - d)/(2*a)
+d = (b**2 -4*a*c)**0.5
+x1 = round((-b + d)/(2*a),2)
+x2 = round((-b - d)/(2*a),2)
 
 print("The value of first root x1 is: ",x1)
 print("The value of second root x2 is: ",x2)
